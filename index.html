@@ -27,11 +27,9 @@
 
 <body data-bs-spy="scroll" data-bs-target="#navbarExample">
 
-    <!-- Nav -->
     <nav id="navbarExample" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation">
         <section class="container">
 
-            <!-- Image Logo -->
             <a class="navbar-brand logo-image" href="index.html"><img src="./images/logo.svg" alt="alternative"></a>
 
             <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse"
@@ -42,13 +40,13 @@
             <section class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav ms-auto navbar-nav-scroll">
                     <li class="nav-item">
-                        <a class="nav-link" href="#header">Home</a>
+                        <a class="nav-link" href="./index.html#header">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
+                        <a class="nav-link" href="./index.html#Lanzamiento">Lanzamiento</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
+                        <a class="nav-link" href="./index.html#introduction">PC Mundial</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown"
@@ -58,21 +56,24 @@
                             <li>
                                 <div class="dropdown-divider"></div>
                             </li>
-                            <li><a class="dropdown-item" href="terms.html">Terms Conditions</a></li>
+                            <li><a class="dropdown-item" href="./pcs.html">Equipos de cómputo</a></li>
                             <li>
                                 <div class="dropdown-divider"></div>
                             </li>
-                            <li><a class="dropdown-item" href="privacy.html">Privacy Policy</a></li>
+                            <li><a class="dropdown-item" href="./pantallas.html">Monitores externos</a></li>
+                            <li>
+                                <div class="dropdown-divider"></div>
+                            </li>
+                            <li><a class="dropdown-item" href="./accesorios.html">Accesorios</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./contacto.html">Contact</a>
+                        <a class="nav-link" href="./index.html#catalogo">Catálogo</a>
                     </li>
                 </ul>
-            </section> <!-- end of navbar-collapse -->
-        </section> <!-- end of container -->
-    </nav> <!-- end of navbar -->
-    <!-- Fin Nav -->
+            </section> 
+        </section> 
+    </nav> 
 
 
     <header id="header" class="header">
@@ -92,7 +93,7 @@
     </header>
 
 
-    <article id="description" class="basic-1">
+    <article id="Lanzamiento" class="basic-1">
         <section class="container">
             <section class="row">
                 <section class="col-lg-7">
@@ -105,10 +106,8 @@
                 <section class="col-lg-5">
                     <section class="text-container">
                         <h2>Lanzamiento | Monitor curvo 4K 50"</h2>
-                        <p>Commodo viverra maecenas accumsan lacus vel facilisis volutpat est. Morbi tristique senectus
-                            et netus et malesuada fames. Felis bibendum ut tristique et. Fermentum odio eu feugiat</p>
-                        <a class="read-more no-line green" href="article.html">Learn more <span
-                                class="fas fa-long-arrow-alt-right"></span></a>
+                        
+                        
                     </section> 
                 </section> 
             </section>
@@ -186,9 +185,13 @@
                 <section class="col-lg-5">
                     <section class="text-container">
                         <h2>Equipos de cómputo</h2>
-                        <p>Extensa variedad de equipos profesionales como la PC Go X4, que te garantiza rendimiento para
+                        <p>Extensa variedad de equipos profesionales como la 
+                            <a href="./pcGoX4.html">
+                            PC Go X4
+                        </a>
+                            , que te garantiza rendimiento para
                             las tareas de ofimática y producción multimedia.</p>
-                        <a class="read-more no-line green" href="article.html">Descrubre más <span
+                            <a class="read-more no-line green" href="./pcs.html">Descubre más <span
                                 class="fas fa-long-arrow-alt-right"></span></a>
                     </section> 
                 </section> 
@@ -210,7 +213,7 @@
                         <h2>¿Pantallas externas?</h2>
                         <p>Ya te presentamos el nuevo monitor curvo 4K de 50", pero tenemos otras extraordinarias
                             opciones que se ajustarán a tu presupuesto y necesidades de configuración.</p>
-                        <a class="read-more no-line green" href="./article.html">Descubre más <span
+                        <a class="read-more no-line green" href="./pantallas.html">Descubre más <span
                                 class="fas fa-long-arrow-alt-right"></span></a>
                     </section> 
                 </section> 
@@ -232,7 +235,7 @@
                         <h2>Accesorios</h2>
                         <p>Encuentra el complemento perfecto para aumentar tu productividad o disfrutar de tardes de
                             ocio y diversión. </p>
-                        <a class="read-more no-line green" href="article.html">Descrubre más<span
+                        <a class="read-more no-line green" href="./accesorios.html">Descrubre más<span
                                 class="fas fa-long-arrow-alt-right"></span></a>
                     </section> 
                 </section> 
@@ -241,13 +244,15 @@
     </article> 
 
 
-    <article id="projects" class="filter bg-you">
+    <article id="catalogo" class="filter bg-you">
         <section class="container">
+
             <section class="row">
                 <section class="col-lg-12">
                     <h2 class="h2-heading">Nuestro catálogo</h2>
                 </section> 
             </section> 
+
             <section class="row">
                 <section class="col-lg-12">
 
@@ -256,86 +261,81 @@
                         <button class="button color-pc" data-filter=".pc">PCs</button>
                         <button class="button color-accesorios" data-filter=".accesorios">Accesorios</button>
                         <button class="button color-monitores" data-filter=".monitores">monitores</button>
-
                     </section> 
+
                     <section class="grid">
                         <section class="element-item pc">
                             <a href="article.html">
-                                <img class="img-fluid" src="images/project-1.jpg" alt="alternative">
-                                <p><strong>Online banking</strong> - imperdiet sed euismod nisi porta lorem Aliquam
-                                    vestibulu</p>
-                            </a>
-                        </section>
-                        <section class="element-item accesorios">
-                            <a href="article.html">
-                                <img class="img-fluid" src="images/project-2.jpg" alt="alternative">
-                                <p><strong>Loans company</strong> - sit amet cursus sit amet dictum sit hendrerit
-                                    gravida rutrum</p>
-                            </a>
-                        </section>
-                        <section class="element-item pc">
-                            <a href="article.html">
-                                <img class="img-fluid" src="images/project-3.jpg" alt="alternative">
-                                <p><strong>Refinance firm</strong> - eget lorem dolor sed viverra ipsum nunc aliquet
-                                    bibendum enim</p>
-                            </a>
-                        </section>
-                        <section class="element-item monitores">
-                            <a href="article.html">
-                                <img class="img-fluid" src="images/project-4.jpg" alt="alternative">
-                                <p><strong>Financial products</strong> - pharetra et ultrices neque ornare aenean. Urna
-                                    et pharetra</p>
-                            </a>
-                        </section>
-                        <section class="element-item pc">
-                            <a href="article.html">
-                                <img class="img-fluid" src="images/project-5.jpg" alt="alternative">
-                                <p><strong>Credit cards</strong> - duis ultricies lacus sed turpis tincidunt id aliquet
-                                    risus ulputate</p>
-                            </a>
-                        </section>
-                        <section class="element-item accesorios">
-                            <a href="article.html">
-                                <img class="img-fluid" src="images/project-6.jpg" alt="alternative">
-                                <p><strong>Software robots</strong> - mi sit amet mauris tempor orci eu lobortis
-                                    elementu eros donec</p>
-                            </a>
-                        </section>
-                        <section class="element-item accesorios">
-                            <a href="article.html">
-                                <img class="img-fluid" src="images/project-7.jpg" alt="alternative">
-                                <p><strong>Company control</strong> - ac odio tempor orci dapibus ultrices in orci eu
-                                    lobortis</p>
-                            </a>
-                        </section>
-                        <section class="element-item pc">
-                            <a href="article.html">
-                                <img class="img-fluid" src="images/project-8.jpg" alt="alternative">
-                                <p><strong>Audit reports</strong> - imperdiet sed euismod nisi porta lorem aliquam
-                                    vestibulum</p>
-                            </a>
-                        </section>
-                        <section class="element-item pc">
-                            <a href="article.html">
-                                <img class="img-fluid" src="images/project-9.jpg" alt="alternative">
-                                <p><strong>Big business</strong> - cursus risus at ultrices mi tempust venenatis urna
-                                    cursus eget</p>
+                                <img class="img-fluid" src="./images/project-1.jpg" alt="alternative">
+                                <p><strong>PC Altive 47</strong> - ideal para producción de multimedia digital</p>
                             </a>
                         </section>
 
+                        <section class="element-item accesorios">
+                            <a href="article.html">
+                                <img class="img-fluid" src="images/project-2.jpg" alt="alternative">
+                                <p><strong>Teclado y mouse</strong> - teclado español con cable RGB y mouse retroiluminado</p>
+                            </a>
+                        </section>
+
+                        <section class="element-item pc">
+                            <a href="article.html">
+                                <img class="img-fluid" src="images/project-3.jpg" alt="alternative">
+                                <p><strong>Laptop 15-egk1004la</strong> - batería de larga duración y el diseño de bisel fino con microbordes</p>
+                            </a>
+                        </section>
+
+                        <section class="element-item monitores">
+                            <a href="article.html">
+                                <img class="img-fluid" src="images/project-4.jpg" alt="alternative">
+                                <p><strong>Monitor Oysey Gaming</strong> - 49" 240Hz Curvatura 1000R, Negro </p>
+                            </a>
+                        </section>
+
+                        <section class="element-item pc">
+                            <a href="article.html">
+                                <img class="img-fluid" src="images/project-5.jpg" alt="alternative">
+                                <p><strong>Microsoft Surface Laptop</strong> - pantalla tactil de 14.4 Pulgadas, procesador Intel i5, Memoria RAM de 16GB</p>
+                            </a>
+                        </section>
+
+                        <section class="element-item accesorios">
+                            <a href="article.html">
+                                <img class="img-fluid" src="images/project-6.jpg" alt="alternative">
+                                <p><strong>Teclado Inalámbrico</strong> - español con 3 Colores LED, batería recargable, QWERTY Español, Color Negro </p>
+                            </a>
+                        </section>
+
+                        <section class="element-item accesorios">
+                            <a href="article.html">
+                                <img class="img-fluid" src="images/project-7.jpg" alt="alternative">
+                                <p><strong>Teclado inalámbrico retroiluminado</strong> - retroiluminación blanca, brillo ajustable de 3 niveles</p>
+                            </a>
+                        </section>
+
+                        <section class="element-item pc">
+                            <a href="article.html">
+                                <img class="img-fluid" src="images/project-8.jpg" alt="alternative">
+                                <p><strong>AudBook D 14</strong> - de 14'', Intel i3, 8 GB RAM, Windows 11</p>
+                            </a>
+                        </section>
+
+                        <section class="element-item pc">
+                            <a href="article.html">
+                                <img class="img-fluid" src="images/project-9.jpg" alt="alternative">
+                                <p><strong>businessPad 11</strong> - tablet de 10.95'', Procesador Qualcomm Snapdragon 865, 6GB</p>
+                            </a>
+                        </section>
 
                         <section class="element-item monitores">
                             <a href="article.html">
                                 <img class="img-fluid" src="images/project-10.jpg" alt="alternative">
-                                <p><strong>Big business</strong> - cursus risus at ultrices mi tempust venenatis urna
-                                    cursus eget</p>
+                                <p><strong>BigDisplay </strong> - monitor de 23.8", resolución 1920*1080, 16:9 </p>
                             </a>
                         </section>
 
 
-
                     </section> 
-
                 </section> 
             </section>
         </section>
@@ -367,13 +367,11 @@
                         <section class="footer-col second">
                             <h6>Links</h6>
                             <ul class="list-unstyled li-space-lg p-small">
-                                <li>Important: <a href="./terms.html">Terms & Conditions</a>, <a
-                                        href="privacy.html">Privacy
-                                        Policy</a></li>
-                                <li>Useful: <a href="#">Colorpicker</a>, <a href="#">Icon Library</a>, <a
-                                        href="#">Illustrations</a></li>
-                                <li>Menu: <a href="#header">Home</a>, <a href="#services">Services</a>, <a
-                                        href="#projects">Projects</a>, <a href="#contact">Contact</a></li>
+                                <li><a href="./about.html">Conócenos</a>, <a
+                                        href="./accesorios.html">Accesorios</a></li>
+                                <li> <a href="./contacto.html">Contacto</a>, <a href="./pantallas.html">Pantallas</a>, <a
+                                        href="./pcGoX4.html">PC Go X4</a></li>
+                                <li><a href="./pcs.html">PCs</a></li>
                             </ul>
                         </section> <!-- end of footer-col -->
                         <section class="footer-col third">
